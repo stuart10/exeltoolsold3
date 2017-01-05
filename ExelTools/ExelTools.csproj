@@ -193,8 +193,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\exeltools.css" />
-    <Content Include="Content\sb-admin-2\metisMenu.css" />
-    <Content Include="Content\sb-admin-2\morris.css" />
+    <Content Include="Content\metisMenu.css" />
+    <Content Include="Content\morris.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -211,11 +211,15 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\sb-admin-2\jquery.js" />
+    <Content Include="Scripts\sb-admin-2\jquery.min.js" />
+    <Content Include="Scripts\sb-admin-2\metisMenu.min.js" />
     <Content Include="Scripts\sb-admin-2\morris-data.js" />
     <Content Include="Scripts\sb-admin-2\morris.js" />
     <Content Include="Scripts\sb-admin-2\morris.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\sb-admin-2\raphael.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

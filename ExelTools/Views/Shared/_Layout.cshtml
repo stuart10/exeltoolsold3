@@ -280,30 +280,19 @@
                             </div>
                             <!-- /input-group -->
                         </li>
+                        <li><a href=@Url.Action("Index", "Home")><i class="fa fa-dashboard fa-fw"></i> Dashboard</a></li>
+                        <li><a href=@Url.Action("Sales", "Home")><i class="fa fa-bar-chart-o fa-fw"></i> Sales</a></li>
+                        <li><a href=@Url.Action("Customers", "Home")><i class="fa fa-shopping-cart fa-fw"></i> Customers</a></li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-                        </li>
-                        <li>
-                            <a asp-controller="Home" asp-action="Products"><i class="fa fa-bar-chart-o fa-fw"></i> Sales</a>
-                        </li>
-                        <li>
-                            <a asp-controller="Home" asp-action="Customers"><i class="fa fa-shopping-cart fa-fw"></i> Customers</a>
-                        </li>
-                        <li>
-                            <a asp-controller="Home" asp-action="Products"><i class="fa fa-glass fa-fw"></i> Products<span class="fa arrow"></span></a>
+                            <a href=@Url.Action("Products", "Home")><i class="fa fa-glass fa-fw"></i> Products<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
-                                <li>
-                                    <a asp-controller="Home" asp-action="Activate">Activate</a>
-                                </li>
-                                <li>
-                                    <a asp-controller="Home" asp-action="Activate">Deactivate</a>
-                                </li>
-                                <li>
-                                    <a asp-controller="Home" asp-action="Activate">Publish</a>
-                                </li>
-                                <li>
-                                    <a asp-controller="Home" asp-action="Activate">Unpublish</a>
-                                </li>
+                                <li><a href=@Url.Action("Activate", "Home")><i class="fa fa-power-off fa-fw"></i> Activate</a></li>
+                                <li><a href=@Url.Action("Deactivate", "Home")><i class="fa fa-power-off fa-fw" style="color: red;"></i> Deactivate</a></li>
+                                <li><a href=@Url.Action("Publish", "Home")><i class="fa fa-newspaper-o fa-fw"></i> Publish</a></li>
+                                <li><a href=@Url.Action("Unpublish", "Home")><i class="fa fa-newspaper-o fa-fw" style="color: red;"></i> Unpublish</a></li>
+                                <li><a href=@Url.Action("Create", "Home")><i class="fa fa-globe fa-fw"></i> Create</a></li>
+                                <li><a href=@Url.Action("Delete", "Home")><i class="fa fa-globe"style="color: red;"></i> Delete</a></li>
+                                
                                 <li>
                                     <a asp-controller="Home" asp-action="Activate">Create</a>
                                 </li>
@@ -313,10 +302,7 @@
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
-                        <li>
-                            <a asp-controller="Home" asp-action="Suppliers"><i class="fa fa-truck fa-fw"></i> Suppliers</a>
-                        </li>
-
+                        <li><a href=@Url.Action("Suppliers", "Home")><i class="fa fa-truck fa-fw"></i> Suppliers</a></li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -325,12 +311,12 @@
         </nav>
 
         <div id="page-wrapper">
-            @*<div class="row">
+            <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Dashboard</h1>
+            <h1 class="page-header">@ViewBag.Title</h1>
         </div>
         <!-- /.col-lg-12 -->
-    </div>*@
+    </div>
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-3 col-md-6">

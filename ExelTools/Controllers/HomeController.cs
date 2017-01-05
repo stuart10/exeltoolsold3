@@ -13,6 +13,34 @@ namespace ExelTools.Controllers
             return View();
         }
 
+        public ActionResult Sales()
+        {
+            return View();
+        }
+
+        public ActionResult Customers()
+        {
+            return View();
+        }
+
+        public ActionResult Products()
+        {
+            return View();
+        }
+
+        public ActionResult Suppliers()
+        {
+            return View();
+        }
+
+
+        public ActionResult UpdateWebProducts()
+        {
+//            var data = context.WebProducts.ToList();
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

@@ -36,7 +36,8 @@ namespace ExelTools.Controllers
 
         public ActionResult UpdateWebProducts()
         {
-//            var data = context.WebProducts.ToList();
+            //            var data = context.WebProducts.ToList();
+            ViewBag.Title = "Activate on Inflow";
 
             return View();
         }

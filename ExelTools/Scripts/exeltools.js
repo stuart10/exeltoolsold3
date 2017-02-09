@@ -47,7 +47,7 @@ $(function() {
 
     $('#btnWebPublish').on('click', function (e) {
 
-        window.location.href = "/App/UpdateWebProducts";
+        window.location.href = "/Home/UpdateWebProducts";
     });
 
     //var ele = $("div.tablixDiv");

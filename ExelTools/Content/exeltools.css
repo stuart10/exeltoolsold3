@@ -446,6 +446,11 @@ table.dataTable thead .sorting:after {
     padding-left: 15px;
 }
 
-.exel-btn-group {
-    margin-left: 25px;
+.btn-exel {
+    width: 120px;
+
+}
+.btn-exel-group {
+    margin-right: 5px;
+/*    margin-left: 25px;*/
 }

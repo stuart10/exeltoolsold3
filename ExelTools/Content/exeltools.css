@@ -447,10 +447,11 @@ table.dataTable thead .sorting:after {
 }
 
 .btn-exel {
-    width: 120px;
+    width: 100px;
+/*    margin-right: 5px;*/
 
 }
 .btn-exel-group {
-    margin-right: 5px;
+/*    margin-right: 5px;*/
 /*    margin-left: 25px;*/
 }
